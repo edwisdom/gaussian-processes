@@ -25,6 +25,12 @@ python gp.py
 ## Sampling from a Gaussian Process Prior
 
 ### RBF Kernel
+
+RBF Kernel with l=0.25     |  RBF Kernel with l=1     | RBF Kernel with l=4
+:-------------------------:|:-------------------------:---------------------:
+![](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_1.png)  |  ![](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_2.png)  |  ![](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_3.png)
+
+
 ![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_1.png) ![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_2.png) ![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_3.png)
 RBF Kernel with l = 4
 
