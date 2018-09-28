@@ -1,0 +1,13 @@
+Edwin Jain
+9/11/18
+Bayesian Deep Learning - HW1
+
+In order to run this code: 
+
+1. Install requirements with: pip install -r requirements.txt
+2. Run the script with: python gp.py
+
+Note that plots will be saved to the working directory as gp_plot*.png
+
+The only non-standard requirement is scikit-learn, which has a utility 
+for computing pairwise Euclidean distances used in the project.
