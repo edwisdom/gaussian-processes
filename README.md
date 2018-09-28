@@ -95,3 +95,14 @@ The average value predicted on a sample at x=18 as seen in Figure 4 is 0, becaus
 
 The standard deviation on a sample at x=18 as seen in Figure 4 is roughly 1, since the gray-shaded confidence intervals cover two standard deviations above and below the mean and the total shaded length equals 4. At x=100, the standard deviation would also be around 1, because the value we chose for our prior was 1. If we wanted to change the standard deviation of posterior samples at these distant points, say to 42.0, we could just use a standard deviation of 42.0 for our prior.
 
+
+## Future Work
+
+In the future, I would like to explore the following:
+
+1. Applying Gaussian process prediction to real-time civil war data in order to uncover new patterns in armed conflict, which has only recently spawned [preliminary work](http://journals.sagepub.com/doi/abs/10.1177/0022002710371669).
+2. Using new kernels, including INK-spline kernels, which [have been shown](http://geza.kzoo.edu/~erdi/IJCNN2013/HTMLFiles/PDFs/P154-1444.pdf) to work significantly better in practice than RBF kernels
+
+## Credits
+
+A huge thanks to Prof. Michael Hughes, who supervised this work.
