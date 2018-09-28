@@ -24,16 +24,18 @@ python gp.py
 
 ## Sampling from a Gaussian Process Prior
 
-### Plots
-![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_1.png)
-RBF Kernel with l = 0.25
-![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_2.png)
-RBF Kernel with l = 1
-![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_3.png)
+### RBF Kernel
+![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_1.png) ![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_2.png) ![alt text](https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_3.png)
 RBF Kernel with l = 4
 
 Figure 1: 5 samples from a Gaussian process prior for each of 3 hyperparameter settings of an RBF kernel
+
 ### Explanation
+
+The l hyperparameter of a radial-basis function (RBF) or squared-exponential (SE) kernel controls its "length-scale." Visually and geometrically, we see from Figure 1 that higher values of l lead to sample functions that are smoother. Mathematically, higher values of l bring down the variance of the model but likely increase the bias. Practically, higher values of $l$ give us a simpler model, that is less prone to overfitting (though of course, it might instead underfit the data).
+
+## Matern Kernel
+
 
 
 
