@@ -26,10 +26,27 @@ python gp.py
 
 ### RBF Kernel
 
-<img align="left" width="275" height="300" src="https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_1.png">
-<img align="left" width="275" height="300" src="https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_2.png">
-<img align="left" width="275" height="300" src="https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_3.png">
-
+<figure>
+	<img align="left" width="275" height="300" src="https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_1.png">
+	<font size="2">
+    <figcaption> RBF Kernel with l = 0.25
+    </figcaption>
+    </font>
+</figure>
+<figure>
+	<img align="left" width="275" height="300" src="https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_2.png">
+	<font size="2">
+    <figcaption> RBF Kernel with l = 1
+    </figcaption>
+    </font>
+</figure>
+<figure>
+	<img align="left" width="275" height="300" src="https://github.com/edwisdom/gaussian-processes/blob/master/gp_plot_3.png">
+	<font size="2">
+    <figcaption> RBF Kernel with l = 4
+    </figcaption>
+    </font>
+</figure>
 
 Figure 1: 5 samples from a Gaussian process prior for each of 3 hyperparameter settings of an RBF kernel
 
